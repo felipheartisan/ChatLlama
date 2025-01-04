@@ -2,7 +2,7 @@ import streamlit as st
 from model import get_response
 from translate import traduzir_texto_para_en, traduzir_texto_para_pt
 
-st.title("Chat Burro")
+st.title("Blender Bot")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
